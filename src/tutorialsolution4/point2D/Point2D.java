@@ -1,4 +1,4 @@
-package tutorialsolution4.point2d;
+package tutorialsolution4.point2D;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package tutorialsolution4.point2d;
+package tutorialsolution4.point2D;
 
 public class TestingPoint2D {
     public static void main(String[] args) {
