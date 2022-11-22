@@ -6,7 +6,6 @@ public class Recipe {
     private String name;
 
     // We can choose different data structures to keep our RecipeComponent objects: array, list, or set.
-    // private RecipeComponent[] listComponent;
     private ArrayList<RecipeComponent> components;
 
     public Recipe (String name){

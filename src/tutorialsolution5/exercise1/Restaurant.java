@@ -9,6 +9,8 @@ public class Restaurant {
             String name = scanner.nextLine();
             System.out.println("Please input the measurement of the ingredient: ");
             String measurementUnit = scanner.nextLine();
+
+            // create an Ingredient object
             Ingredient myNewIngredient =  new Ingredient(name, measurementUnit);
             System.out.printf("The ingredient is: %s and the measurement unit is: %s\n",
                     myNewIngredient.getName(), myNewIngredient.getMeasurementUnit());

@@ -3,14 +3,17 @@ package tutorialsolution5.exercise2;
 import java.util.Scanner;
 
 public class Ingredient {
+    // Attributes
     private String name;
     private String measurementUnit;
 
+    // Constructor
     public Ingredient(String name, String measurementUnit){
         this.name = name;
         this.measurementUnit = measurementUnit;
     }
 
+    // A helper method to create a new Ingredient object
     // exercise 2
     public static Ingredient createIngredient(){
         Scanner scanner = new Scanner(System.in);
@@ -22,6 +25,7 @@ public class Ingredient {
         return new Ingredient(name, measurementUnit);
     }
 
+    // A helper method to show/print a new Ingredient object
     // exercise 2
     public void displayIngredient(){
         System.out.printf("The ingredient is: %s and the measurement unit is: %s\n",
@@ -29,6 +33,7 @@ public class Ingredient {
     }
 
 
+    // Getters and Setters
     public String getName() {
         return name;
     }
