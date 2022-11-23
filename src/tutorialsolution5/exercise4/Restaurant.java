@@ -7,5 +7,6 @@ public class Restaurant {
         Recipe chickenCurryRecipe = new Recipe("Chicken Curry");
         chickenCurryRecipe.addComponent();
         chickenCurryRecipe.addComponent();
+        chickenCurryRecipe.displayRecipe();
     }
 }
