@@ -1,6 +1,7 @@
 package tutorialsolution5.exercise5;
 
 import java.util.ArrayList;
+import tutorialsolution5.exercise4.RecipeComponent;
 
 public class Recipe {
     private String name;

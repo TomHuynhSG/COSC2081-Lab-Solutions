@@ -1,6 +1,7 @@
 package tutorialsolution5.exercise4;
 
 import java.util.Scanner;
+import tutorialsolution5.exercise3.Ingredient;
 
 public class RecipeComponent {
     private Ingredient ingredient;
