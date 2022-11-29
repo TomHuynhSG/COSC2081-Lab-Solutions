@@ -9,11 +9,14 @@ public class Zoo {
         Cat myCat = new Cat("My Cat Name");
         Dog myDog = new Dog("My Dog Name");
         Dog anotherDog = new Dog("Another Dog Name");
+
+        // Printing out different objects for testing
         System.out.println("Printing out myAnimal object: " + myAnimal);
         System.out.println("Printing out myMammal object: " + myMammal);
         System.out.println("Printing out myCat object: " + myCat);
         System.out.println("Printing out myDog object: " + myDog);
 
+        // Testing methods of created objects
         System.out.println("Calling myCat.greets():");
         myCat.greets();
 
