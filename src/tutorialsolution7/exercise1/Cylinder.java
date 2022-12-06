@@ -13,6 +13,10 @@ public class Cylinder extends Circle{
         return 2*super.getArea()+2*Math.PI * this.getRadius() * this.getHeight();
     }
 
+    public double getVolumn(){
+        return super.getArea()*this.getHeight();
+    }
+
     @Override
     public String toString() {
         return String.format("Cylinder[radius=%.2f,height=%.2f]",

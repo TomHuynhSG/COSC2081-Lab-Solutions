@@ -15,6 +15,7 @@ public class Main {
         double height = scanner.nextDouble();
         Cylinder myCylinder = new Cylinder(radius, height);
         System.out.println("The area of the cylinder: "+ myCylinder.getArea());
+        System.out.println("The volumn of the cylinder: "+ myCylinder.getVolumn());
         System.out.println("The cylinder info:" + myCylinder);
     }
 }
