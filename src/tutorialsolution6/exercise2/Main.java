@@ -5,9 +5,11 @@ public class Main {
         // Create a generic Person object (Parent class)
         Person myPerson = new Person("Tom", "256 Hai Ba Trung street, District 1, Saigon");
         // Create a Student object (child class)
-        Student myStudent = new Student("Jerry", "702 Nguyen Van Linh street, District 7, Saigon", "Software Engineering", 2007, 50000);
+        Student myStudent = new Student("Jerry", "702 Nguyen Van Linh street, District 7, Saigon",
+                "Software Engineering", 2020, 50000);
         // Create a Staff object (child class)
-        Staff myStaff = new Staff("Phong", "521 Kim Ma street, Ngoc Khanh, Ha Noi", "RMIT University", 5000);
+        Staff myStaff = new Staff("Phong", "521 Kim Ma street, Ngoc Khanh, Ha Noi",
+                "RMIT University", 5000);
 
         // Testing myPerson object
         System.out.println("Testing myPerson object:");
