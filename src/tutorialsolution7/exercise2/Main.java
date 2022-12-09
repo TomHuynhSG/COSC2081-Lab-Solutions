@@ -1,9 +1,5 @@
 package tutorialsolution7.exercise2;
 
-import tutorialsolution5.exercise5.Recipe;
-import tutorialsolution7.exercise1.Circle;
-import tutorialsolution7.exercise1.Cylinder;
-
 import java.util.Scanner;
 
 public class Main {
