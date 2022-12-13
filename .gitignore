@@ -1,0 +1,5 @@
+# This is a .gitignore file
+# This file specifics which folder or file should be ignored by Git
+
+# In this example, git ignores out folder as it only contains the compiled files (byte code - *.class files)
+out
