@@ -35,8 +35,8 @@ public class ReadTextFile {
 // This is the classic way to open file inside the try block
 // However, we need to include finally block to close the file afterward.
 /*
+    Scanner input = new Scanner(Paths.get(filename));
     try {
-        Scanner input = new Scanner(Paths.get(filename));
         // code that uses the Scanner object goes here
     } catch (IOException e) {
         // exception handling code goes here
